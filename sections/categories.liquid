@@ -1,0 +1,9 @@
+
+<section class="categories">
+  <h2>تصفح حسب القسم</h2>
+  <div class="category-list">
+    {% for collection in collections %}
+      <a href="{{ collection.url }}" class="category-item">{{ collection.title }}</a>
+    {% endfor %}
+  </div>
+</section>
