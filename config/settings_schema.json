@@ -2,6 +2,13 @@
 [
   {
     "name": "إعدادات عامة",
-    "settings": []
+    "settings": [
+      {
+        "type": "text",
+        "id": "welcome_message",
+        "label": "رسالة الترحيب",
+        "default": "أهلاً بكم في متجرنا"
+      }
+    ]
   }
 ]
